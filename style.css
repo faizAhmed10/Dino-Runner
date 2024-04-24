@@ -1,0 +1,23 @@
+body{
+    font-family: monospace;
+    text-align: center;
+    position: relative;
+}
+
+#board{
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+}
+
+#score-display{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    visibility: hidden;
+}
+
+.show{
+    visibility: visible;
+}
